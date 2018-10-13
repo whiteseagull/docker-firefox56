@@ -20,7 +20,7 @@ Run sudo build.sh
 
 ## Launch Firefox
 
-sudo docker run -ti --rm \\
+sudo `docker run -ti --rm \\
 
        -e DISPLAY=$DISPLAY \\
 
@@ -28,7 +28,7 @@ sudo docker run -ti --rm \\
 
        -v /userDir:/home/developer \\
        
-       firefox
+       firefox`
 
 You must replace userDir with an empty dir, where Docker will **write** as it was the user home dir. 
 

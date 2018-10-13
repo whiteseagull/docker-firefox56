@@ -28,5 +28,5 @@ sudo docker run -ti --rm \\
        firefox
 ```
 
-You must replace userDir with an empty dir, where Docker will **write** as it was the user home dir. 
+You must replace userDir with a dir which is empty, where Docker will **write** as it was the user home dir. 
 
